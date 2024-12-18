@@ -1,0 +1,29 @@
+----------------------------------- Deadline  18.12.2024 ------------------------------------
+
+1. Blog veb applicationga model yozib uni adminga qo'shish
+
+Modellar:
+-Author
+-Post (Foreignkey to Author)
+-Comment (Foreignkey to Post)
+
+Har bitta model uchun ModelAdmin yozish
+
+Projectga jazzmin qo'shish
+
+
+2. Library management system yaratish
+
+Modellar: 
+-Author
+-Kitob (Foreignkey author)
+-Ijarachi(email qo'shish majburiy)
+-Kitob buyurtmasi(Foreignkey to Ijarachi(kim tomonidan ijaraga olindi), 
+    Foreignkey to kitob(qaysi kitob ijaraga olindi),
+    qachon ijaraga olingani, 
+    deadline, 
+    qaytarib berilganmi yoki yo'qmi)
+
+Har bitta model uchun ModelAdmin yozish
+
+Projectga jazzmin qo'shish
